@@ -1,0 +1,10 @@
+create table alunos(--entidade geralmente se refere a tabela que vocês querem criar--
+ id bigint generated always primary key not null,
+ coluna1 tex,
+ coluna2 varchar(15)
+ coluna3 int
+);
+--entidade geralmente se refere a tabela que vocês querem criar--
+--coluna1 foi colocado como texto(text) que é a premissa mais basica de escrita de coluna--
+--coluna2 foi utilizado varchar para mostrar como você limita a quantidade de caracteres--
+--cluna3 se refere ao item de configuração mais basico para incerir numeros (int esta associado a inteiro, ou seja, um numero inteiro)--
